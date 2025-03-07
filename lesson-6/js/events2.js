@@ -7,7 +7,7 @@ function random(number) {
 }
 /* STEP 1a: Event Objects
 Modify the below function to allow it to accept the event as a parameter or argument (named "event" in this case), then change the background color of the event.target instead of the document body */
-function bgChange() {
+function bgChange(event) {
     var rndCol = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
     document.body.style.backgroundColor = rndCol;
 }
