@@ -8,44 +8,73 @@
 
 <!-- page-level body -->
 <body>
-    <h1>Smoothie Order</h1>
+    <h1>Smoothie Order Form</h1>
     <!-- div section -->
     <div>
         <!-- form for the smoothie order -->
         <form id="SmoothieOrderForm">
-           <label for="flavour">Flavour</label>
-            <div id="flavour">
-                <input type="checkbox" name="flavour" id="mango" value="mango">
+
+            <lable for="firstname">First Name:</lable>
+            <input type="text" name="firstname" id="firstname" value="firstname" > <br /><br />
+
+            <lable for="lastname">Last Name:</lable>
+            <input type="text" name="lastname" id="lastname" value="lastname" > <br /><br />
+
+            <!-- flavours for the smoothie -->
+                <label for="flavour">flavour</label>
+                <div id="flavour"><br />
+
                 <label for="mango">Mango</label>
+                <input type="checkbox" name="flavour" id="mango" value="mango">
 
-                <input type="checkbox" name="flavour" id="strawberry" value="mango">
                 <label for="strawberry">Strawberry</label>
+                <input type="checkbox" name="flavour" id="strawberry" value="mango">
 
-                <input type="checkbox" name="flavour" id="banana" value="mango">
                 <label for="banana">Banana</label>
+                <input type="checkbox" name="flavour" id="banana" value="mango">
 
-                <input type="checkbox" name="flavour" id="kiwi" value="mango">
                 <label for="kiwi">Kiwi</label>
+                <input type="checkbox" name="flavour" id="kiwi" value="mango">
 
-                <input type="checkbox" name="flavour" id="coconut" value="mango">
                 <label for="coconut">coconut</label>
+                <input type="checkbox" name="flavour" id="coconut" value="mango">
 
-                <input type="checkbox" name="flavour" id="pineapple" value="mango">
                 <label for="pineapple">pineapple</label>
+                <input type="checkbox" name="flavour" id="pineapple" value="mango">
 
-                <input type="checkbox" name="flavour" id="taro" value="mango">
                 <label for="mango">Taro</label>
+                <input type="checkbox" name="flavour" id="taro" value="mango">
             </div>  <br>
 
+            <!-- size of the smoothie -->
             <label for="size">Size:</label>
             <div id="size">
                 <input type="radio" name="size" id="regular" value="regular">
                 <label for="regular">Regular</label>
 
                 <input type="radio" name="size" id="large" value="large">
-                <label for="large">Large</label>
+                <label for="large">Large</label> <br/> <br />
 
-            </select> 
+                <!-- Topings for the smoothie -->
+                 <label for="topings">Topings:</label>
+                 <label for="tapioca">Tapioca</label>
+                 <input type="checkbox" name="topings" id="tapioca" value="tapioca">
+
+                 <label for="coconutjelly">Coconut Jelly</label>
+                 <input type="checkbox" name="topings" id="coconutjelly" value="coconutjelly">
+
+                 <label for="pineapplejelly">Pineapple Jelly</label>
+                 <input type="checkbox" name="topings" id="pineapplejelly" value="pineapplejelly">
+
+                 <label for="coconutjelly">Coconut Jelly</label>
+                 <input type="checkbox" name="topings" id="coconutjelly" value="coconutjelly">
+
+                 
+                 <label for="strawberryjelly">Strawberry Jelly</label>
+                 <input type="checkbox" name="topings" id="strawberryjelly" value="strawberryjelly">
+
+                 <!-- submit button to submit the order of the smoothie -->
+                  <button type="submit">Submit</button>
         </form>
     </div>
 </body>
