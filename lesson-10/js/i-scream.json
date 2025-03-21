@@ -25,6 +25,28 @@
         "clover honey"
       ],
       "image" : "peach-mango.svg"
+    },
+    {
+      "name" : "Perfect Peach Mango",
+      "calories" : 300,
+      "type" : "ice cream",
+      "ingredients" : [
+        "Pistachio puree",
+        "Poping boba"
+      ],
+      "image" : "ice-cream-xtra1.svg"
+    },
+
+    {
+      "name" : "Perfect Peach Mango",
+      "calories" : 300,
+      "type" : "ice cream",
+      "ingredients" : [
+        "Vanila puree",
+        "Butterscotch cream",
+        "dark chocolate sprinkles"
+      ],
+      "image" : "ice-cream-xtra2.svg"
     }
   ]
 }
