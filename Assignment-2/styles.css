@@ -8,7 +8,12 @@ html {
 
 body{
     text-align: left;
-    font-size: 30px;
+    font-size: 25px;
+}
+
+h1{
+  text-align: left;
+  color: black;
 }
 
   button {
@@ -20,4 +25,8 @@ body{
   
   button:hover {
     background-color: darkgray;
+  }
+
+  input[type=checkbox], input[type=radio]{
+    width: 50px;
   }
